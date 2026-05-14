@@ -1,6 +1,5 @@
 // All API calls go through this module
-const BASE = import.meta.env.VITE_API_URL || "/api";
-
+const BASE = "https://jobhive-backend-zq1f.onrender.com/api";
 function getToken() {
   return localStorage.getItem("jh_token");
 }
